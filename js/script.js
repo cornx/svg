@@ -1,6 +1,5 @@
-document.addEventListener("DOMContentLoaded", function (event) {
+document.addEventListener("DOMContentLoaded", function(event) {
     console.log("DOM fully loaded and parsed");
-});
 
     var fajl = "img/plodine.svg";
     // klikni za prikaz  
@@ -31,3 +30,5 @@ document.addEventListener("DOMContentLoaded", function (event) {
         file: "img/pleter.svg",
         duration: 5000,
     }, false);
+
+});
