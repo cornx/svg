@@ -24,8 +24,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
             type: "oneByOne"
         });
     };
-
-
     new Vivus('pleter', {
         file: "img/pleter.svg",
         duration: 5000,
