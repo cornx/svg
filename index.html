@@ -7,36 +7,47 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <style>
-        body {
-            color: white
-        }
-        
-        #my-div,
-        #ime,
-        #plodine {
-            width: 50%;
-            margin: 0;
+        #main {
+            width: 80%;
+            margin: 3% 10%;
             float: left;
             position: relative
+        }
+        
+        .container {
+            padding: 10px
+        }
+        
+        .plodine {
+            width: 500px;
+            height: 500px;
         }
     </style>
 </head>
 
 <body>
     <div class="container">
+        <h3>SVG animacije </h3>
+        <p>Izvor: <a href="https://github.com/maxwellito/vivus" target="_blank">vivus.js</a></p>
         <div class="row">
-            <div id="pleter"></div>
+            <div class="col-xs-3">
+                <button id="danijel">Danijel</button>
+            </div>
+            <div class="col-xs-3">
+                <button id="pokazi">Plodine</button>
+            </div>
+            <div class="col-xs-3">
+                <button id="apartmani">Apartmani</button>
+            </div>
+            <div class="col-xs-3">
+                <button id="pleter">Pleter</button>
+            </div>
         </div>
-        <div class="row">
-            <div id="apt"></div>
-        </div>
-        <div class="row">
-            <div id="ime"></div>
-            <div id="plodine"></div>
-        </div>
+        <div class="row"></div>
+        <div id="main"></div>
+        <!-- container -->
     </div>
-    <button onclick="start();">Pokreni</button>
-    <button onclick="apt();">Pokaži apt</button>
+
     <script src="js/vivus.min.js" type="text/javascript"></script>
     <script src="js/script.js" type="text/javascript"></script>
 </body>
